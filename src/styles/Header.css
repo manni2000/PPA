@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button, .signup-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+  }
+  
+  .signup-button {
+    background-color: #fff;
+    color: #28a745;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .header {
+      flex-direction: column;
+    }
+  }
+  

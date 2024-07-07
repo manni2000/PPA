@@ -1,0 +1,11 @@
+.hero-carousel .hero-slide {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-carousel .hero-slide img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  

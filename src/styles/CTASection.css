@@ -1,0 +1,40 @@
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f4f8;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .cta-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .cta-section {
+      padding: 40px 10px;
+    }
+  
+    .cta-section h2 {
+      font-size: 24px;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
